@@ -22,3 +22,7 @@ pm2 monit (to monitor any running process)
 - mongoose is the only dependency
 
 
+## How it works
+
+We are managing the workers in the workerpool. As soon as the worker is done with saving the data, its free to take the next 10 000 records to save (every worker takes 10 000 tasks per time). This continues until all the workers are done saving the data. 
+PM2 will keep the workers active untill you kill the workers via the terminal.
