@@ -21,6 +21,4 @@ pm2 monit (to monitor any running process)
 - Thread pool to share work between workers
 - mongoose is the only dependency
 
-## Benchmark
 
-CSV file with 31 957 997 lines: `5:57:193 (m:ss:mmm)`
