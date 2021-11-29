@@ -1,0 +1,14 @@
+{
+  "name": "sirene-app",
+  "version": "1.0.0",
+  "description": "Parallel writes to MongoDB using worker threads and PM2 for monitoring",
+  "scripts": {
+    "start": "node --experimental-worker ./src/main.js"
+  },
+  "repository": {
+  },
+  "keywords": [],
+  "author": "Gurpal",
+  "license": "EPITA",
+  "devDependencies": {}
+}

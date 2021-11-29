@@ -1,0 +1,6 @@
+{
+  "name": "sirene-invader",
+  "script": "node --experimental-worker ./src/main.js",
+  "out_file": "./logs/result.log",
+  "error_file": "./logs/error.log"
+}
