@@ -10,7 +10,7 @@ This Node.js reads and store in a database large files in a time efficient manne
 ## Getting started
 
 ```shell
-npm install
+npm install `at the beginning seulement`
 pm2 start process.json
 pm2 delete all (delete all the running processes)
 pm2 monit (to monitor any running process)
@@ -19,8 +19,6 @@ pm2 monit (to monitor any running process)
 ## Features
 
 - Thread pool to share work between workers
-- Use Readable Streams
-- Efficient write in bulk in MongoDB
 - mongoose is the only dependency
 
 ## Benchmark
